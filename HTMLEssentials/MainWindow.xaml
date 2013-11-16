@@ -1,0 +1,52 @@
+﻿<Window x:Class="HTMLEssentials.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HTML Essentials" Height="500" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontFamily="Consolas" Loaded="base_loaded" WindowStyle="None" MouseDown="base_mousedown" MouseMove="base_mousemove" MouseUp="base_mouseup">
+    <Window.Background>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/sshot-7.png" Stretch="None" ViewportUnits="Absolute" Viewport="0,0,4,4" TileMode="Tile"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="HTML Essentials is the perfect Suite for any Web&#xA;manipulation tasks or web penetration testing. See useful&#xA;components below." HorizontalAlignment="Left" Margin="4,27,0,0" VerticalAlignment="Top" Height="58" Foreground="White"/>
+        <Button x:Name="Button1" Content="VIEWBOT" HorizontalAlignment="Left" Margin="102,115,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Click="btn1_click" Opacity="0.1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.742"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Button2" Content="Youtube Playlist extractor" HorizontalAlignment="Left" Margin="102,171,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Click="btn2_click" Opacity="0.1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.742"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Button3" Content="Bruteforcer" HorizontalAlignment="Left" Margin="102,229,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Opacity="0.1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.742"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Button4" Content="AnyRequest" HorizontalAlignment="Left" Margin="102,290,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Opacity="0.1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.742"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
