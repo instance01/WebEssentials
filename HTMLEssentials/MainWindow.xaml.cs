@@ -32,18 +32,13 @@ namespace HTMLEssentials
             timer1.Start();
         }
 
-        
-
-
-        
-
-
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
             Button1.Opacity += 0.1;
             Button2.Opacity += 0.1;
-            Button3.Opacity += 0.1;
-            Button4.Opacity += 0.1;
+            //Button3.Opacity += 0.1;
+            //Button4.Opacity += 0.1;
+            //Button5.Opacity += 0.1;
             if (Button1.Opacity > 0.9)
             {
                 timer1.Stop();
