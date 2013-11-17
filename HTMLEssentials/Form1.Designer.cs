@@ -36,20 +36,23 @@
             // axShockwaveFlash1
             // 
             this.axShockwaveFlash1.Enabled = true;
-            this.axShockwaveFlash1.Location = new System.Drawing.Point(12, 12);
+            this.axShockwaveFlash1.Location = new System.Drawing.Point(2, 2);
             this.axShockwaveFlash1.Name = "axShockwaveFlash1";
             this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
-            this.axShockwaveFlash1.Size = new System.Drawing.Size(169, 155);
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(205, 192);
             this.axShockwaveFlash1.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(209, 201);
+            this.ClientSize = new System.Drawing.Size(209, 194);
             this.Controls.Add(this.axShockwaveFlash1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.Text = "Player";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
             this.ResumeLayout(false);

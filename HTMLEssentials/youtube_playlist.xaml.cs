@@ -83,6 +83,7 @@ namespace HTMLEssentials
             if (links.Count < 1)
             {
                 MessageBox.Show("Failed getting any urls");
+                this.Dispatcher.BeginInvoke(new Action(() => { fetchbtn.IsEnabled = true; }));
                 return;
             }
             this.Dispatcher.BeginInvoke(new Action(() =>
@@ -94,5 +95,33 @@ namespace HTMLEssentials
                 f.start(links.ToArray());
             })); 
         }
+
+
+        // form movement
+
+        Boolean drag = false;
+        int mousex, mousey;
+
+        private void base_mousedown(object sender, MouseButtonEventArgs e)
+        {
+            drag = true;
+            mousex = System.Windows.Forms.Cursor.Position.X - Convert.ToInt32(this.Left);
+            mousey = System.Windows.Forms.Cursor.Position.Y - Convert.ToInt32(this.Top);
+        }
+
+        private void base_mousemove(object sender, MouseEventArgs e)
+        {
+            if (drag == true)
+            {
+                this.Top = System.Windows.Forms.Cursor.Position.Y - mousey;
+                this.Left = System.Windows.Forms.Cursor.Position.X - mousex;
+            }
+        }
+
+        private void base_mouseup(object sender, MouseButtonEventArgs e)
+        {
+            drag = false;
+        }
     }
+
 }
