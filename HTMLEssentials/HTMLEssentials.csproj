@@ -60,6 +60,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="anyrequest.xaml.cs">
+      <DependentUpon>anyrequest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +75,10 @@
     <Compile Include="youtube_playlist.xaml.cs">
       <DependentUpon>youtube_playlist.xaml</DependentUpon>
     </Compile>
+    <Page Include="anyrequest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

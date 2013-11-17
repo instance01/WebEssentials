@@ -27,7 +27,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="Button3" Content="Bruteforcer" HorizontalAlignment="Left" Margin="109,195,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Opacity="0.1">
+        <Button x:Name="Button3" Content="Bruteforcer" HorizontalAlignment="Left" Margin="109,195,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Opacity="0.1" Click="btn3_click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -37,7 +37,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="Button4" Content="AnyRequest" HorizontalAlignment="Left" Margin="109,232,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Opacity="0.1">
+        <Button x:Name="Button4" Content="AnyRequest" HorizontalAlignment="Left" Margin="109,232,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Opacity="0.1" Click="btn4_click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -47,7 +47,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="Button5" Content="Sockets Connection Spammer" HorizontalAlignment="Left" Margin="109,269,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Opacity="0.1">
+        <Button x:Name="Button5" Content="Sockets Connection Spammer" HorizontalAlignment="Left" Margin="109,269,0,0" VerticalAlignment="Top" Width="190" Height="32" Foreground="#FF0C0C0C" Cursor="Hand" Opacity="0.1" Click="btn5_click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>

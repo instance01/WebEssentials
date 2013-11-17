@@ -37,7 +37,7 @@ namespace HTMLEssentials
             Button1.Opacity += 0.1;
             Button2.Opacity += 0.1;
             //Button3.Opacity += 0.1;
-            //Button4.Opacity += 0.1;
+            Button4.Opacity += 0.1;
             //Button5.Opacity += 0.1;
             if (Button1.Opacity > 0.9)
             {
@@ -97,6 +97,13 @@ namespace HTMLEssentials
         {
             // anyrequest
             // you can set every header and send a request
+            anyrequest a = new anyrequest();
+            a.Show();
+        }
+
+        private void btn5_click(object sender, RoutedEventArgs e)
+        {
+            // sockets connections
         }
     }
 }
